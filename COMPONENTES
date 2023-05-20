@@ -1,0 +1,56 @@
+//CREAR COMPONENTE DESDE CMD//
+NG GENERATE COMPONENT CABECERA
+
+//IMAGEN//
+<img src =" https://es.vecteezy.com/vectores-gratis/gato-logo" alt="">
+
+
+scss
+header {
+    background-color:red ;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+
+estilo scss
+div {
+    background-color: #dedede;
+    border: 1px solid #999;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+ts
+gatos : any = [
+    {nombre: "Gato Uno", description: "Hola gato"},
+    {nombre: "Gato Dos", description: "Hola gato"},
+    {nombre: "Gato tres", description: "Hola gato"}
+
+
+  ];
+  
+  
+  
+  
+  
+  
+  abbb
+  
+  html angular
+  p<section class="listado">
+    <div *ngFor="let gato of gatos">
+    <h3>{{gato.nombre}}</h3>
+    <p>{{gato.descripcion}}</p>
+
+    </div>
+    
+    
+    
